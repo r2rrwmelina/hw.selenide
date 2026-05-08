@@ -26,7 +26,7 @@ public class CardOrderTest {
       $("[type='tel']")
               .press(Keys.chord(Keys.SHIFT, Keys.HOME), Keys.BACK_SPACE)
               .setValue(planningDate);
-      $("[name='name']").setValue("Иванова Anna");
+      $("[name='name']").setValue("Иванова Анна");
       $("[name='phone']").setValue("+79276665253");
       $(".checkbox__box").click();
       $(".button").click();
